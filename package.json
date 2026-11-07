@@ -1,0 +1,15 @@
+{
+  "name": "doh-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy:worker": "wrangler deploy",
+    "dev:pages": "wrangler pages dev public",
+    "deploy:pages": "wrangler pages deploy public --project-name=doh-proxy"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}
